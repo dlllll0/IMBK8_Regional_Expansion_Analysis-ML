@@ -1,0 +1,6 @@
+# Only for src.model_selection.compare_and_tune.
+# Original versions unknown; this full experiment was not rerun during packaging.
+# Install the core requirements first. No unverified version pins are supplied.
+optuna
+xgboost
+lightgbm

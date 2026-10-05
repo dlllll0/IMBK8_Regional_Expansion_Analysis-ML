@@ -1,0 +1,5 @@
+# Versions used in the local core replay, not the unknown original environment.
+pandas==3.0.1
+numpy==2.3.5
+scikit-learn==1.9.1
+matplotlib==3.11.2

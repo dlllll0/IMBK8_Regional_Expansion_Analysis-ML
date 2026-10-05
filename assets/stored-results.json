@@ -1,0 +1,85 @@
+{
+  "status": "stored-notebook-results-not-new-experiment",
+  "data": {
+    "rows": 347299,
+    "columns": 45,
+    "first_month": 202201,
+    "last_month": 202412,
+    "months": 36
+  },
+  "baseline": {
+    "r2": 0.7357,
+    "rmse": 10.3193,
+    "train_rows": 215471,
+    "test_rows": 53868
+  },
+  "comparison_cv_r2": {
+    "RandomForest": 0.7812,
+    "XGBoost": 0.7287,
+    "LightGBM": 0.7222
+  },
+  "tuning": {
+    "requested_trials": 30,
+    "completed_trials_in_log": 17,
+    "interrupted_trial": 17,
+    "best_cv_r2": 0.7807462015821355,
+    "test_r2": 0.7353,
+    "test_rmse": 10.3271,
+    "params": {
+      "n_estimators": 246,
+      "max_depth": 20,
+      "min_samples_split": 4,
+      "min_samples_leaf": 1
+    }
+  },
+  "feature_importance": {
+    "여신한도금액": 0.405512,
+    "총디지털거래액": 0.195466,
+    "총예금좌수": 0.174623,
+    "총오프라인거래액": 0.083015,
+    "총카드소비": 0.065341,
+    "총외환실적": 0.042882,
+    "자동이체거래건수": 0.03316
+  },
+  "clusters": {
+    "home_rows": 269339,
+    "reference_rows": 70825,
+    "other_rows": 60716,
+    "combined_rows": 131541,
+    "matched_rows": 88926,
+    "stage1_counts": {
+      "0": 47357,
+      "1": 68332,
+      "2": 70825,
+      "3": 82825
+    },
+    "stage2_counts": {
+      "0": 1598,
+      "1": 41017,
+      "2": 88926
+    },
+    "reference_medians": {
+      "예대마진": 2.6184,
+      "총예금좌수": 4,
+      "여신한도금액": 290,
+      "총디지털거래액": 157
+    }
+  },
+  "region_top3": [
+    {
+      "region": "부산광역시",
+      "cosine": 0.99,
+      "observation_rows": 5828
+    },
+    {
+      "region": "경상남도",
+      "cosine": 0.9878,
+      "observation_rows": 3301
+    },
+    {
+      "region": "울산광역시",
+      "cosine": 0.9565,
+      "observation_rows": 1190
+    }
+  ]
+}
